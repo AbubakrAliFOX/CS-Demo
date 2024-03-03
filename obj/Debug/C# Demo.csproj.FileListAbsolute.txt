@@ -1,0 +1,7 @@
+E:\Downloads\WebDev\Demos\C# Demo\bin\Debug\C# Demo.exe.config
+E:\Downloads\WebDev\Demos\C# Demo\bin\Debug\C# Demo.exe
+E:\Downloads\WebDev\Demos\C# Demo\bin\Debug\C# Demo.pdb
+E:\Downloads\WebDev\Demos\C# Demo\obj\Debug\C# Demo.csproj.AssemblyReference.cache
+E:\Downloads\WebDev\Demos\C# Demo\obj\Debug\C# Demo.csproj.CoreCompileInputs.cache
+E:\Downloads\WebDev\Demos\C# Demo\obj\Debug\C# Demo.exe
+E:\Downloads\WebDev\Demos\C# Demo\obj\Debug\C# Demo.pdb
