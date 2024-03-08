@@ -5,40 +5,20 @@ namespace Main
     internal class Program
     {
 
-
-        struct stStudent
-        {
-            public string FirstName;
-            public string LastName;
-        }
-
         static void Main(string[] args)
         {
 
-            //A struct object can be created with or without the new operator,
-            //same as primitive type variables.
+            //number of 100-nanosecond intervals that have elapsed
+            //since January 1, 0001, at 00:00:00.000 in the Gregorian calendar. 
 
-            stStudent Student;
-            stStudent Student2 = new stStudent();
+            DateTime dt = new DateTime();
+            Console.WriteLine(DateTime.MinValue.Ticks);  //min value of ticks
+            Console.WriteLine(DateTime.MaxValue.Ticks); // max value of ticks
 
-
-            Student.FirstName = "Mohammed";
-            Student.LastName = "Abu-Hadhoud";
-
-
-            Console.WriteLine(Student.FirstName);
-            Console.WriteLine(Student.LastName);
-
-
-            Student2.FirstName = "Ali";
-            Student2.LastName = "Ahmed";
-
-
-            Console.WriteLine(Student2.FirstName);
-            Console.WriteLine(Student2.LastName);
 
             Console.ReadKey();
 
         }
     }
 }
+
