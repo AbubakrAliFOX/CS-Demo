@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace C__Demo
+namespace Main
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("My first c# app!!");
-            Console.WriteLine();
+            Console.WriteLine("My first c# app!!");
+            Console.WriteLine("The sum of 5+5 =" + (5 + 5));
         }
     }
 }
