@@ -7,10 +7,10 @@ namespace Main
 
         static void Main(string[] args)
         {
-            DateTime date1;
-            string dateString = "3/8/2024";
-            DateTime.TryParse(dateString, out date1);
-            Console.WriteLine(date1);
+            string name = "Abubakr Ali Hamid";
+            byte age = 24;
+
+            Console.WriteLine($"My name is {name} and I'm {age} years old");
 
         }
     }
