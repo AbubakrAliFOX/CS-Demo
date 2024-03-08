@@ -8,12 +8,20 @@ namespace Main
         static void Main(string[] args)
         {
 
-            //number of 100-nanosecond intervals that have elapsed
-            //since January 1, 0001, at 00:00:00.000 in the Gregorian calendar. 
+            DateTime dt = new DateTime(2023, 2, 21);
 
-            DateTime dt = new DateTime();
-            Console.WriteLine(DateTime.MinValue.Ticks);  //min value of ticks
-            Console.WriteLine(DateTime.MaxValue.Ticks); // max value of ticks
+            // Hours, Minutes, Seconds
+            TimeSpan ts = new TimeSpan(49, 25, 34);
+            Console.WriteLine(ts);
+            Console.WriteLine(ts.Days);
+            Console.WriteLine(ts.Hours);
+            Console.WriteLine(ts.Minutes);
+            Console.WriteLine(ts.Seconds);
+
+            //this will add time span to the date.
+            DateTime newDate = dt.Add(ts);
+
+            Console.WriteLine(newDate);
 
 
             Console.ReadKey();
