@@ -7,14 +7,11 @@ namespace Main
 
         static void Main(string[] args)
         {
-            string[] names = new string[5];
-            for (int i = 0; i < 5; i++)
+            char[] myArray = { 'H', 'e', 'l', 'l', 'o' };
+
+            foreach (char ch in myArray)
             {
-                names[i] = Console.ReadLine();
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine(names[i]);
+                Console.Write(ch);
             }
         }
     }
