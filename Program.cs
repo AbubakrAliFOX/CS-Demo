@@ -7,11 +7,15 @@ namespace Main
 
         static void Main(string[] args)
         {
-            string name = "Abubakr Ali Hamid";
-            byte age = 24;
-
-            Console.WriteLine($"My name is {name} and I'm {age} years old");
-
+            string[] names = new string[5];
+            for (int i = 0; i < 5; i++)
+            {
+                names[i] = Console.ReadLine();
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(names[i]);
+            }
         }
     }
 }
